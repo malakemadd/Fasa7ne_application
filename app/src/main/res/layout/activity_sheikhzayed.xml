@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="none">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="2dp"
+        tools:context=".MainActivity">
+
+
+
+        <!--android:layout_marginLeft="135dp"
+                android:layout_marginTop="30dp"-->
+
+        <!-- <ImageView
+             android:id="@+id/img1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="1dp"
+             android:layout_marginTop="128dp"
+             tools:src="@tools:sample/avatars" />
+             -->
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/zayed1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="6dp"
+            android:text="El-Shiekh Zayed"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/ZedText"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+
+            android:layout_below="@id/img1"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="-108dp"
+            android:layout_toEndOf="@id/img1"
+            android:text="Zed Park         Rating:4.3⭐"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="126dp"
+            android:layout_marginTop="231dp"
+            android:layout_marginEnd="10dp"
+            android:text="Zed Park is an ideal place with a lot of fun and easy to reach, in Sheikh Zayed City."
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="164dp"
+            android:layout_toRightOf="@id/img3"
+            android:text="Walk Of Cairo     Rating:4.6⭐"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="144dp"
+            android:layout_height="106dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="474dp"
+            android:src="@drawable/walk_of_cairo" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="499dp"
+            android:text="It has fun and modern areas where you can enjoy and go out economically"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="321dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_green_light"
+            tools:ignore="ExtraText" />
+
+
+        <TextView
+            android:id="@+id/CapitalText"
+            android:layout_width="243dp"
+            android:layout_height="44dp"
+            android:layout_below="@id/img1"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+
+            android:layout_marginTop="22dp"
+
+
+            android:layout_marginRight="-6dp"
+            android:text="Capital Business Park  Rating:4.6⭐"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="136dp"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-16dp"
+            android:layout_marginLeft="-16dp"
+            android:layout_marginTop="330dp"
+            android:src="@drawable/capital" />
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="386dp"
+            android:layout_marginEnd="-20dp"
+            android:layout_marginBottom="303dp"
+            android:text="It includes a group of the most luxurious and finest restaurants and cafes."
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="125dp"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-17dp"
+            android:layout_marginLeft="-17dp"
+            android:layout_marginTop="211dp"
+            android:src="@drawable/zed_park" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="469dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_green_light"
+            tools:ignore="ExtraText" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="295dp"
+            android:layout_toRightOf="@id/img6"
+            android:text="Arkan Plaza       Rating:4.9⭐"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"
+            tools:ignore="NotSibling" />
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="595dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_green_light"
+            tools:ignore="ExtraText" />
+
+        <ImageView
+            android:id="@id/img6"
+            android:layout_below="@id/v1"
+            android:layout_width="113dp"
+            android:layout_height="135dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arkan_plaza" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/img6"
+            android:text="It offers a variety of activities for different ages as playing areas,laser tag,VR"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="128dp"
+            android:layout_height="201dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="8dp"
+
+            android:text="More info"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="417dp"
+            android:layout_marginEnd="5dp"
+
+            android:text="More info"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t5"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-8dp"
+            android:layout_marginRight="9dp"
+
+            android:text="More info"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="544dp"
+            android:layout_marginEnd="4dp"
+
+            android:text="More info"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</ScrollView>
